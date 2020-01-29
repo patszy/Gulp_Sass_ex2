@@ -1,0 +1,46 @@
+.features{
+    h2{
+        font-weight: normal;
+    }
+    p:nth-child(2){
+        font-size: 12px;
+        margin-bottom: 100px;
+    }
+
+    .phone{
+        width: 200px;
+        position: relative;
+        left: 0;
+
+        img{
+            width: 200px;
+            margin: 0 auto;
+            position: absolute;
+            left: 0;
+            right: 0;
+        }
+
+        img:nth-child(1){
+            z-index: 10;
+            top: 35px;
+            width: 176px;
+        }
+
+        img:nth-child(2){
+            z-index: 5;
+        }
+    }
+
+    .info{
+        margin-left: -30px;
+
+        div{
+            padding: 15px;
+        }
+        .fas{
+            font-size: 48px;
+            margin-bottom: 15px;
+        }
+    }
+
+}

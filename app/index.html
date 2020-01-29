@@ -5,18 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>Gulp_Sass_ex2</title>
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-
-            <a class="navbar-brand" href="#">New Age</a>
+    <header class="pb-5">
+        <nav class="navbar navbar-expand-lg navbar-dark mb-5">
+            <a class="navbar-brand col-6 text-center" href="#">New Age</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="collapse navbar-collapse  col-6 justify-content-center" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
                 <a class="nav-link" href="#">Download<span class="sr-only">(current)</span></a>
@@ -30,14 +30,78 @@
             </ul>
             </div>
         </nav>
-        <div>
-            <p>New Age is an app landing page that will help you beautifully showcase your new mobile app, or anything else!</p>
-            <button>start now for free</button>
-        </div>
-        <div>
-            <img src="img/phone.png">
+        <div class="container p-5 mb-5" >
+            <div class="row pl-5 pr-5">
+                <div class="col-6">
+                    <h2>New Age is an app landing page that will help you beautifully showcase your new mobile app, or anything else!</h2>
+                    <button type="button" class="btn">start now for free</button>
+                </div>
+                <div class="col-6 phone">
+                    <img src="img/screen.jpg" class="pt-2">
+                    <img src="img/phone.png">
+                </div>
+            </div>
         </div>
     </header>
+
+    <section class="discover bg-warning text-dark text-center">
+        <h1>Discover what all the buzz is about! </h1>
+        <p>Our app is available on any mobile device! Download now to get started!</p>
+        <div class="w-25 d-flex justify-content-around">
+            <img class src="./img/google-play-badge.png" alt="">
+            <img src="./img/app-store-badge.png" alt="">
+        </div>
+    </section>
+
+    <section class="features text-dark p-5 text-center">
+        <h2>Unlimited Features, Unlimited Fun</h2>
+        <p>Check our what you can do with this app theme!</p>
+        <div class="d-flex m-5">
+            <div class="col-5 phone w-25">
+                <img src="img/screen.jpg" class="pt-2">
+                <img src="img/phone.png">
+            </div>
+            <div class="info col-7 w-50 d-flex flex-wrap justify-content-end">
+                <div class="w-50">
+                    <i class="fas text-danger fa-mobile-alt"></i>
+                    <h4>Device Mockups</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, sint!</p>
+                </div class="w-50">
+                <div class="w-50">
+                    <i class="fas text-danger fa-camera"></i>
+                    <h4>Flexible Use</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, nulla.</p>
+                </div>
+                <div class="w-50">
+                    <i class="fas text-danger fa-gift"></i>
+                    <h4>Free to Use</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, nulla.</p>
+                </div>
+                <div class="w-50">
+                    <i class="fas text-danger fa-unlock-alt"></i>
+                    <h4>Open Source</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, nulla.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="start text-light">
+        <div class="w-50">
+            <h1>Stop waiting</h1>
+            <h1>Start building</h1>
+            <button type="button" class="btn">let's get started</button>
+        </div>
+    </section>
+
+    <section class="love text-dark text-center bg-warning">
+        <h2>We <i class="text-danger fas fa-heart"></i> new friends!</h2>
+        <div class="social text-light">
+            <i class="fab fa-twitter rounded-circle bg-info"></i>
+            <i class="fab fa-facebook-f rounded-circle bg-primary"></i>
+            <i class="fab fa-google-plus-g rounded-circle bg-danger"></i>
+        </div>
+    </section>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

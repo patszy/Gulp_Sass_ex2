@@ -1,0 +1,20 @@
+.start{
+    padding: 150px 0;
+    background-image: url(../img/bg-cta.jpg);
+    background-size: cover;
+    background-position: center;
+
+    div:first-of-type{
+        margin-left: 20%;
+    }
+
+    .btn{
+        text-transform: uppercase;
+        color: white;
+        border: 1px solid white;
+        border-radius: 100px;
+        background-color: transparent;
+        padding: 5px 30px;
+        margin-top: 30px;
+    }
+}
